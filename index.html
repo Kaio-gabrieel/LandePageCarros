@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>FP selecction</title>
+  </head>
+  <body>
+    <header>
+      <img src="./Assets/logo.png" alt="logo" />
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Carros</li>
+          <li>Fale conosco</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="container on">
+      <div class="list">
+        <div class="item ativo">
+            <div class="car-img">
+              <img src="./Assets/1.png" alt="imagem carro" />
+            </div>
+
+           <div class="Content">
+              <p class="car-information">Único dono</p>
+              <h1>911 Turbo</h1>
+              <p class="description">
+                Nossos engenheiros gostam de se referir a ele como o carro
+                esportivo mais perfeito de todos. Extremamente esportivo e, ao
+                mesmo tempo, confortável e irrestritamente apto para o uso diário.
+                Os modelos 911 Turbo seguem de forma consistente este caminho..
+              </p>
+              <button class="informação">Saiba mais</button>
+            </div>
+          </div>
+
+        <div class="item">
+          <div class="car-img">
+            <img src="./Assets/2.png" alt="imagem carro" />
+          </div>
+
+          <div class="Content">
+            <p class="car-information">Único dono</p>
+            <h2>Ferrari</h2>
+            <p class="description">
+              A Ferrari 458 tinha motor F136, desenvolvido em parceria com a
+              Maserati e fabricado a partir de 2001. O projeto envolve uma gama
+              de motores V8 de 90 graus com aspiração natural.
+            </p>
+            <button class="informação">Saiba mais</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="car-img">
+            <img src="./Assets/3.png" alt="imagem carro" />
+          </div>
+
+          <div class="Content">
+            <p class="car-information">Único dono</p>
+            <h3>Lamborghini</h3>
+            <p class="description">
+              Construído em fibra de carbono, o Lamborghini Aventador nasceu
+              para ser o topo de linha da marca, sucedendo o Murciélago, nome
+              associado com outro touro de combate espanhol, de 1879.
+            </p>
+            <button class="informação">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="Arrows">
+        <button id="prev">
+          <img src="./Assets/arrow.png" alt="seta direita" />
+        </button>
+        <button id="next">
+          <img src="./Assets/arrow.png" alt="seta esquerda" />
+        </button>
+      </div>
+
+      <div class="indicators">
+        <div class="number">01</div>
+        <ul>
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
