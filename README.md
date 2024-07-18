@@ -4,7 +4,7 @@
 <br>
 <img src="https://github.com/Kaio-gabrieel/LandePageCarros/blob/main/Assets/Captura%20de%20tela%202024-07-18%20193446.png?raw=true">
 <img src="https://github.com/Kaio-gabrieel/LandePageCarros/blob/main/Assets/Captura%20de%20tela%202024-07-18%20193506.png?raw=true">
-<img src="">
+<img src="https://github.com/Kaio-gabrieel/LandePageCarros/blob/main/Assets/Captura%20de%20tela%202024-07-18%20193526.png?raw=true">
 <h2>Principais Tecnologias utilizadas:</h2>
 <br>
 <br>
